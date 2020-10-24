@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+:root{
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+ 
+}
+html ,body{
+    font-family: 'Montserrat', sans-serif;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+dl, ol, ul{
+  margin-bottom: 0px;
+}
+/* my css*/
+.navbar {
+  font-size: 18px;
+  background-color: white;
+  padding-bottom: 10px;
+  min-height: 70px;
+  border-bottom: 1px solid grey;
+  
+}
+
+.main-nav {
+  list-style-type: none;
+  display: none;
+
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: black;
+}
+
+
+.main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+.navbar-toggle {
+  position: absolute;
+  right: 20px;
+  top:15px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+.fa-bars{
+  color: black;
+}
+.active {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo img{
+  height: 2em;
+}
+li a:hover{
+  color: orange;
+  text-decoration:none;
+}
+.carousel-item{
+  height: 650px;
+}
+h1 b{
+  font-weight: 800;
+}
+.caption{
+  color:#3876AD;
+  font-weight: 500;
+}
+.btngroup{
+  padding-top: 10px;
+
+}
+.btn{
+color: white;
+padding: 15px 40px;
+border-radius: 0;
+
+}
+.callfordemo{
+  background-color: orange;
+  margin-right: 20px;
+}
+.callforquote{
+  background-color: #3876AD;
+}
+.callfordemo:hover{
+color: white;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.callforquote:hover{
+  color: white;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.carousel-indicators li.active{
+  background-color: orange;
+}
+.item{
+  display: flex;
+}
+.item .itemcontent{
+  margin: 0px 20px;
+}
+.item .itemcontent p{
+  font-size: 14px;
+}
+.item img{
+  width: 40px;
+  height: 40px;
+}
+.thirdpart{
+  text-align: center;
+ background-image: url('../img/back.webp');
+ background-size: cover;
+ background-repeat: no-repeat;
+ height:auto;
+}
+.thirdpart img{
+  width: 100%;
+}
+.thirdimage .text{
+  color: white;
+  }
+  .thirdimage .robusttech{
+    background-image: url(../img/robusttech.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .thirdimage .scalable{
+      background-image: url(../img/scalable.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .thirdimage .easeofuse{
+      background-image: url(../img/easeofuse.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .fourthlist .listtext{
+      text-align: left;
+      margin-left: 20px;
+    }
+    .subscribeform .requestdemo{
+      background-color: black;
+      color: white;
+      font-weight: 600;
+      margin-right: 20px;
+  }
+    .subscribeform .contact{
+      background-color: transparent;
+      color: black;
+      font-weight: 600;
+      border: 2px solid black; 
+    }
+    .subscribeform{
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .subscribetext h6{
+      margin-top: 20px;
+    }
+    .fifthone p{
+       font-size: 13px;
+       color:grey;
+       margin-bottom: 0px;   
+    }
+@media screen and (max-width: 768px) {
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+.main-nav{
+  margin-top: 50px;
+  transition-property: height;
+  transition-duration: 5s;
+}
+.carousel-item{
+  height: 50vh;
+  background-size: contain;
+}
+.btngroup{
+ display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+  left: 10%;
+}
+.carousel-caption h3{
+  font-size: 1rem;
+}
+.carousel-caption .btn{
+  flex: 1;
+  font-size: 12px;
+  padding: 10px 10px;
+}
+.second-title{
+    text-align: center;
+}
+.secondpart{
+  padding: 30px 0px;
+}
+b{
+  font-weight: 700 !important;
+}
+.item .itemcontent p {
+  font-size: 14px;
+}
+.item{
+  padding: 25px 0px 0px 0px;
+}
+.itemcontent h5{
+  font-size: 1rem;
+}
+.thirdsection h1{
+  padding: 40px 0px;
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+.thirdimage .robusttech{
+  position: relative;
+  height: 10em;
+  background-position-y: -190px;
+}
+.thirdimage .scalable{
+  position: relative;
+  height: 10em;
+  background-position-y: -250px;
+}
+.thirdimage .easeofuse{
+  position: relative;
+  height: 10em;
+  background-position-y: -6em;
+}
+.thirdimage img{
+  height: 10em;
+  object-fit: cover;
+  width: 100%;
+}
+.text{
+  position: absolute;
+  bottom: 0px;
+  left: 5%;
+  right: 5%;
+}
+.text h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.text p{
+  font-size: 14px;
+  color: #e7e7e7;
+}
+.thirdpart{
+  background-position: top;
+  background-position-y: -130px;
+}
+
+.fourthlist .fourthitem{
+  display: flex;
+}
+
+.fourthsection{
+  padding: 30px 20px;
+}
+.listtext h5{
+  font-size: 1rem;
+}
+.listtext p{
+  font-size: 14px;
+}
+video{
+  width: 100%;
+  margin-bottom: -6px;
+}
+.fourthtext h1{
+  text-align: center;
+}
+.fourthtext{
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position-x: -240px;
+  background-position-y: 100px;
+
+}
+.fourthhead{
+  padding: 20px 0px;
+}
+.fourthtext .child{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 0;
+}
+.fa-arrow-right{
+  color: orange;
+  }
+  .subscribeform{
+    flex-direction: column;
+    text-align: center;
+    background-color: orange;
+    padding:30px 20px
+  }
+  .subscribetext h4{
+    color: white;
+    /* font-size: 1.6rem; */
+  }
+  .subscribebutton{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+ .requestdemo{
+    padding: 10px 5px;
+    flex: 1;
+    font-size: 13px;
+  }
+  .contact{
+    padding: 15px 5px;
+    flex: 1;
+    font-size: 14px;
+  }
+  .fifthcontent{
+    padding:30px;
+    display:grid;
+  }
+  .fifthcontent p{
+    margin-bottom: 0px;
+    font-size:14px;
+    margin-bottom:2px;
+    color:grey
+  }
+  .fifthone{
+    margin-bottom: 30px;
+    order:4;
+  }
+  .fifthtwo{
+    margin-bottom:30px;
+  }
+  .fifththree{
+    margin-bottom: 30px;
+  }
+  .fifthfour{
+    margin-bottom:30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1100px) {
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+      
+  }
+
+  .main-nav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-bottom: 0px;
+  }
+
+  .main-nav li {
+      margin: 0;
+  }
+
+  .nav-links {
+      margin-left: 40px;
+  }
+
+  .logo {
+      margin-top: 0;
+  }
+
+  .navbar-toggle {
+      display: none;
+  }
+  li .nav-links:hover{
+    border-bottom: 5px solid orange;
+    padding: 15px 0px;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 10%;
+    bottom: 25%;
+    left: 10%;
+}
+.mainhead{
+  font-size: 5rem;
+}
+.second-title{
+  font-size: 4rem;
+    text-align: center;
+}
+.secondpart{
+  padding: 50px 0px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.content .list1  {
+  flex: 1;
+}
+.content .list2{
+  flex: 1;
+}
+.content .list3{
+  flex: 1;
+}
+.item{
+  padding:30px 0px;
+}
+.thirdsection h1{
+  padding:40px 0px;
+  font-size: 4rem;
+}
+
+.thirdimage{
+display: flex;
+
+}
+.thirdimage .robusttech{
+  flex: 1;
+  width: 33.3%;
+  position: relative;
+}
+.thirdimage .scalable{
+  flex: 1;
+  width: 33.3%;
+  position: relative;
+}
+.thirdimage .easeofuse{
+  flex: 1;
+  width: 33.3%;
+  position: relative;
+}
+.thirdimage .text{
+  position: absolute;
+    bottom: 20px;
+    right: 15%;
+    left: 15%;
+}
+.thirdimage .text h3{
+  font-weight: 600;
+}
+.thirdimage .text p{
+  color: #e7e7e7;
+  font-size: 14px;
+}
+.thirdimage .robusttech{
+height: 30em;
+}
+.thirdimage .scalable{
+   height: 30em;
+}
+.thirdimage .easeofuse{
+  height: 30em;
+ }
+ .fourthtext{
+  padding: 70px 0px 0px 0px;
+   text-align: center;
+ }
+ .fourthtext h1{
+   font-size: 4rem;
+ }
+ .fourthlist .fourthitem{
+   display: flex;
+   margin: 50px 50px;
+ }
+ .fourthlist{
+   display: flex;
+   justify-content: center;
+   margin: 30px 50px 0px 50px;
+ }
+ .fourthhead{
+   display: flex;
+   justify-content: center;
+ }
+ .fa-arrow-right{
+ font-size: 25px;
+ color: orange;
+ }
+ .listtext h5{
+  font-size: 1.25rem;
+}
+.fourthitem p{
+  font-size: 14px;
+}
+.fourthitem .fa-arrow-right{
+  font-size: 20px;
+}
+ .fourthtext{
+   background-image: url('../img/bg.png');
+   background-size: auto;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 72em;
+ }
+.videos{
+  position: absolute;
+}
+.subscribeform{
+  background-color: orange;
+
+}
+.subscribeform{
+  padding: 70px 50px;
+  align-items: center;
+}
+.subscribetext{
+  flex: 1;
+}
+.subscribebutton{
+flex: 1;
+}
+.subscribetext h4{
+  color: white;
+  font-size: 1.6rem;
+}
+video{
+  width: 100%;
+}
+.fifthcontent{
+  display: flex;
+  padding:60px 100px;
+
+}
+.fifthone{
+  flex:1
+}
+.fifthtwo{
+  flex: 1;
+}
+.fifththree{
+  flex: 1;
+}
+.fifthfour{
+  flex:1
+}
+.fifthcontent p{
+  font-size: 14px;
+}
+.fifthcontent h4{
+  margin-bottom: 25px;
+}
+}
+
+@media screen and (min-width: 1100px) and (max-width:2000px) {
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+      height: 70px;
+      align-items: center;
+     
+  }
+  #navbar .active{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+  }
+
+  .main-nav {
+      display: flex;
+      margin-right: 30px;
+      flex-direction: row;
+      justify-content: flex-end;
+      margin-bottom: 0px;
+  }
+
+  .main-nav li {
+      margin: 0;
+  }
+
+  .nav-links {
+      margin-left: 40px;
+  }
+
+  .logo {
+      margin-top: 0;
+  }
+
+  .navbar-toggle {
+      display: none;
+  }
+  li .nav-links:hover{
+    border-bottom: 5px solid orange;
+    padding: 15px 0px;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 30%;
+    bottom: 25%;
+    left: 30%;
+}
+.mainhead{
+  font-size: 5rem;
+}
+.second-title{
+  font-size: 4rem;
+    text-align: center;
+}
+.secondpart{
+  padding: 50px 0px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 40px;
+  
+}
+.content .list1  {
+  flex: 1;
+}
+.content .list2{
+  flex: 1;
+}
+.content .list3{
+  flex: 1;
+}
+.item{
+  padding:30px 0px;
+}
+.thirdsection h1{
+  padding:40px 0px;
+  font-size: 4rem;
+}
+
+.thirdimage{
+display: flex;
+
+}
+.thirdimage .robusttech{
+  flex: 1;
+  width: 33.3%;
+  position: relative;
+}
+.thirdimage .scalable{
+  flex: 1;
+  width: 33.3%;
+  position: relative;
+}
+.thirdimage .easeofuse{
+  flex: 1;
+  width: 33.3%;
+  position: relative;
+}
+.thirdimage .text{
+  position: absolute;
+    bottom: 20px;
+    right: 15%;
+    left: 15%;
+}
+.thirdimage .text h3{
+  font-weight: 600;
+}
+.thirdimage .text p{
+  color: #e7e7e7;
+  font-size: 14px;
+}
+.thirdimage .robusttech{
+height: 30em;
+}
+.thirdimage .scalable{
+   height: 30em;
+}
+.thirdimage .easeofuse{
+  height: 30em;
+ }
+ .fourthtext{
+  padding: 70px 0px 0px 0px;
+   text-align: center;
+ }
+ .fourthtext h1{
+   font-size: 4rem;
+ }
+ .fourthlist .fourthitem{
+   display: flex;
+   margin: 50px 90px;
+ }
+ .fourthlist{
+   display: flex;
+   justify-content: center;
+   margin: 30px 50px 0px 50px;
+ }
+ .fourthhead{
+   display: flex;
+   justify-content: center;
+ }
+ .fa-arrow-right{
+ font-size: 25px;
+ color: orange;
+ }
+ .listtext h5{
+  font-size: 1.25rem;
+}
+.fourthitem p{
+  font-size: 14px;
+}
+.fourthitem .fa-arrow-right{
+  font-size: 20px;
+}
+ .fourthtext{
+   background-image: url('../img/bg.png');
+   background-size: auto;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 75em;
+ }
+.videos{
+  position: absolute;
+}
+.subscribeform{
+  background-color: orange;
+
+}
+.subscribeform{
+  padding: 70px 100px;
+  align-items: center;
+}
+.subscribetext{
+  flex: 1;
+}
+
+.subscribetext h4{
+  color: white;
+  font-size: 1.6rem;
+}
+video{
+  width: 1100px;
+}
+.fifthcontent{
+  display: flex;
+  padding:60px 100px;
+
+}
+.fifthone{
+  flex:1
+}
+.fifthtwo{
+  flex: 1;
+}
+.fifththree{
+  flex: 1;
+}
+.fifthfour{
+  flex:1
+}
+.fifthcontent p{
+  font-size: 14px;
+}
+.fifthcontent h4{
+  margin-bottom: 25px;
+}
+
+}
+
